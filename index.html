@@ -31,6 +31,8 @@
     text-align: center;
   }
   .latte-icon { font-size: 52px; margin-bottom: 1rem; display: block; color: #C47E3A; }
+  .hero-logo { display: block; width: min(230px, 74vw); margin: 0 auto 1.2rem; border-radius: 14px; }
+  .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
   .hero-tag {
     display: inline-block;
     background: #C47E3A;
@@ -89,9 +91,9 @@
 <div class="lisatte-wrap">
 
   <div class="hero">
-    <i class="ti ti-coffee latte-icon" aria-hidden="true"></i>
+    <img class="hero-logo" src="logo-cropped.png" alt="Lisatte" />
     <div class="hero-tag">Latte Art Coaching</div>
-    <h1>Lisa<span>tte</span></h1>
+    <h1 class="sr-only">Lisatte</h1>
     <p class="hero-sub">Learn the art of the pour — from zero to beautiful</p>
     <button class="hero-cta">Book a session</button>
   </div>
